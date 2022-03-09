@@ -1,0 +1,126 @@
+body{
+	background-color: #e8e8e8;
+}
+
+img {
+	max-width: 100%;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background-color: #dbdbdb;
+	text-align: left;
+}
+
+nav{
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 1.5em;
+	margin-top: -6em;
+    margin-right: 3em;
+    margin-bottom: 0;
+    width: 65%;
+}
+
+nav ul {
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin: 1em;
+	padding: 0.5em;
+
+}
+
+nav li a {
+	color: #356329;
+	text-decoration: none;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #598c46;
+}
+
+nav li a.active{
+	color: #30b500;
+}
+
+nav li a:hover {
+	color: #9D9D93;
+	font-style: italic;
+}
+
+
+main{
+	clear: left;
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	background-color: #f7f7f7;
+	opacity: 0.85;
+}
+
+main p{
+	text-align: center;
+	margin-top: 2em;
+}
+
+main a{
+	background-color: #cccccc;
+	border-radius: 1em;
+	color: #356329;
+	font-weight: bold;
+	padding: 0.8em;
+	text-decoration: none;
+	text-align: center;
+}
+
+main h2{
+	text-align: center;
+}
+
+section{
+	text-align: center;
+}
+footer {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 2em;
+	color: #808080;
+}
+
+footer a {
+	color: #356329;
+	text-decoration: none;
+}
+
+
+
+#social img {
+	padding: 0.5em;
+}
+
+
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+}
+
+
+
